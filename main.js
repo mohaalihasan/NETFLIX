@@ -2,11 +2,10 @@ const action = document.querySelector("#action");
 const Comendy = document.querySelector("#Comendy");
 const Dm = document.querySelector("#Dm");
 const md = document.querySelector("#md");
+const form = document.querySelector("#form")
 const videoContainer = document.querySelector("#VideoEncoder");
 
-alert("welcome to my channel")
-
-
+// alert("welcome to my channel")
 
 action.addEventListener("click", () => {
   videoContainer.innerHTML = `
