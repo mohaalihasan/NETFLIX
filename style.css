@@ -44,7 +44,7 @@ ul li:hover{
 }
 
 #form{
-    margin-top: 20px;
+    margin-top: 40px;
     margin-left: 50px;
     text-align: center;
     background-color: rgb(200, 200, 200);
@@ -52,6 +52,11 @@ ul li:hover{
     padding: 20px;
     border-radius: 30px;
     height: 30vh;
+    transition: 3s;
+
+    box-shadow:
+   -6px -6px 10px white,
+    4px 4px 8px rgb(80, 80, 80);
 }
 
 input{
@@ -195,7 +200,14 @@ iframe{
     /* height: 400px; */
     margin-top: 40px;
     border-radius: 30px;
+   
     
+    }
+
+    #form:hover{
+        box-shadow:
+        inset -2px -2px 4px rgb(245, 244, 243),
+        inset 2px 2px 8px rgb(20, 20, 20);
     }
 
     .rate{
